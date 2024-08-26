@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Mensajes</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo__header" src="assets/Logo.png" alt="Logo_alura">
+    </header>
+    <main>
+        <form class="formulario__container">
+        <textarea class="form__input" name="" id="" placeholder="Ingrese texto aqui"></textarea>
+        <div class="msj__container">
+            <div class="alert__msj">
+                <img src="assets/Image_2.png" alt="alert icon">
+                <span>Solo letras minúsculas y sin acentos (ignorado al encriptar)</span>
+            </div>
+            <div class="btn__container">
+            <input class="form__btn1" type="submit" value="Encriptar">
+            <input class="form__btn2" type="submit" value="Desencriptar">
+            </div>
+        </div>
+        </form>
+        <aside class="salida">
+            <img class="salida__img" src="assets/Image_1.png" alt="Image_1">
+            <div class="salida__container">
+                <h3 class="salida__titulo">Ningún mensaje fue encontrado</h3>
+                <p class="salida__texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <input class="form__btn3 oculto" type="submit" value="Copiar">
+            </div>
+        </aside>
+    </main>
+    <script src="encriptador.js"></script>
+    <footer>
+        <p>Creado por Ivan Enrique Bohorquez - Colombia,Bogota 2024</p>
+    </footer>
+</body>
+</html>
